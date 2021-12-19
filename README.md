@@ -1,4 +1,8 @@
-
+Si solo quieres usar la consola de comandos para ejecutarlo, lo puedes usar desde aquí:
+<a href="https://github.com/jose89fcb/infoxat-python">https://github.com/jose89fcb/infoxat-python</a>
+<br>
+<br>
+<br>
 Comandos a usar:
 <br>
 !xat ejemplo
