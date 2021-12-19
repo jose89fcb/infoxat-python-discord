@@ -1,7 +1,9 @@
 
 Comandos a usar:
 <br>
+!xat ejemplo
 !xat cambio
+o el xat que quieras obtener la informacion
 
 
 <img src="https://i.imgur.com/iplN6Hb.png">
