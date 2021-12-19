@@ -2,8 +2,10 @@
 Comandos a usar:
 <br>
 !xat ejemplo
+<br>
 !xat cambio
-o el xat que quieras obtener la informacion
+<br>
+o el xat que quieras obtener la información
 
 
 <img src="https://i.imgur.com/iplN6Hb.png">
