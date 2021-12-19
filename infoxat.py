@@ -57,4 +57,4 @@ async def xat(ctx, *, Nombrexat):
 
 
 
-bot.run('AQUI EL TOKEN') #Deberas de crear tu propio bot e TOKEN en el siguiente enlace: https://discord.com/developers/applications y añadirlo en <b>AQUI EL TOKEN</b>
+bot.run('AQUI EL TOKEN') #Deberas de crear tu propio bot e TOKEN en el siguiente enlace: https://discord.com/developers/applications y añadirlo en AQUI EL TOKEN
