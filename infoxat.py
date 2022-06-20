@@ -17,6 +17,7 @@ async def xat(ctx, *, Nombrexat):
     xat = response.json()['a']
     id = response.json()['id']
     descripcion = response.json()['d']
+    Nombre_xat = response.json()['g']
 
     infoxat = xat
 
@@ -44,7 +45,7 @@ async def xat(ctx, *, Nombrexat):
     
     usuario =  ctx.message.author
   
-    embed = discord.Embed(title="", description="Id de xat: " f"{id}""\n\ndescripción: " f"{descripcion}" "\n\nidioma xat: {}".format(separado[3]) + "\n\nLink radio: {}".format(separado[4]).replace("/;"," ").replace(";"," "), color=discord.Colour.random()) 
+    embed = discord.Embed(title="", description=f"Nombre xat: {Nombre_xat}\n\n" "Id de xat: " f"{id}""\n\ndescripción: " f"{descripcion}" "\n\nidioma xat: {}".format(separado[3]) + "\n\nLink radio: {}".format(separado[4]).replace("/;"," ").replace(";"," "), color=discord.Colour.random()) 
         
     embed.set_footer(text="Programado Por jose89fcb" + "\n\nComando ejecutado Por🡺 " + (str(usuario)), icon_url="https://i.imgur.com/tYMmIH1.png")
     embed.set_author(name="INFO xat") 
@@ -57,7 +58,9 @@ async def xat(ctx, *, Nombrexat):
     await ctx.send(embed=embed, file=discord.File('fondoxat.png'))
     os.remove("fondoxat.png")
       
-
+@bot.event
+async def on_ready():
+    print("BOT listo!")
 
 
 bot.run('')#Deberas de crear tu propio bot e TOKEN en el siguiente enlace: https://discord.com/developers/applications y añadirlo en AQUI EL TOKEN
